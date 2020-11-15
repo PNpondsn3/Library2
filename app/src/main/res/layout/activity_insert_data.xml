@@ -82,4 +82,22 @@
         app:layout_constraintStart_toStartOf="@+id/last_name_edit_text"
         app:layout_constraintTop_toBottomOf="@+id/last_name_edit_text" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="187dp"
+        android:layout_height="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bookrremovebgpreview3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        app:layout_constraintBottom_toTopOf="@+id/name_edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/pxquestionbookremovebgpreview" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
